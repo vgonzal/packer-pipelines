@@ -21,7 +21,7 @@ pipeline {
         sh """
         #!/bin/sh
         cd jenkins-tutorial
-        packer init .
+        #packer init .
         packer build -force .
         """
       }
